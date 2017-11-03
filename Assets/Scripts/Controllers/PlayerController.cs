@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		if(m_life == 0){
 			m_state_mgr.GameOver();
-			//Transistion to game over
+			
 		}
 	}
 	void OnCollisionEnter(Collision other){
