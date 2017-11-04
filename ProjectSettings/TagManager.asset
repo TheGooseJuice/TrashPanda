@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Walls
   - enemy
+  - TomatoPickup
+  - HotdogPickup
+  - GunPickup
+  - RpgPickup
+  - BeansPickup
+  - CandyPickup
   layers:
   - Default
   - TransparentFX
