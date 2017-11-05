@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour {
 		gameObject.transform.position=pos;
 	}
 	void OnTriggerEnter(Collider other){
-		if(other.gameObject.tag == "Walls")
+		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "Bounds")
 		{
 			Destroy(gameObject);
 		}

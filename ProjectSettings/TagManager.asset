@@ -12,6 +12,7 @@ TagManager:
   - RpgPickup
   - BeansPickup
   - CandyPickup
+  - Bounds
   layers:
   - Default
   - TransparentFX

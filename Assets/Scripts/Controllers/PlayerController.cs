@@ -33,8 +33,21 @@ public class PlayerController : MonoBehaviour {
 			if(m_currentWeapon == Weapons.HOTDOG){
 				GameManager.Instance.FireBullet(m_bulletprefabs[0]);
 			}
-			
-			GameManager.Instance.EquipHotDog();
+			if(m_currentWeapon == Weapons.TOMATO){
+				GameManager.Instance.FireBullet(m_bulletprefabs[1]);
+			}
+			if(m_currentWeapon == Weapons.CANDY){
+				GameManager.Instance.FireBullet(m_bulletprefabs[2]);
+			}
+			if(m_currentWeapon == Weapons.BEANS){
+				GameManager.Instance.FireBullet(m_bulletprefabs[3]);
+			}
+			if(m_currentWeapon == Weapons.GUN){
+				GameManager.Instance.FireBullet(m_bulletprefabs[4]);
+			}
+			if(m_currentWeapon == Weapons.RPG){
+				GameManager.Instance.FireBullet(m_bulletprefabs[5]);
+			}
 		}
 		if(m_life == 3){
 			GameManager.Instance.Enable3Hearts();
