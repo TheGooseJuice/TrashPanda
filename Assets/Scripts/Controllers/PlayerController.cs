@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		if(m_life == 3){
 			GameManager.Instance.Enable3Hearts();
+			Debug.Log("stuff");
 		}
 		if(m_life == 2){
 			GameManager.Instance.Enable2Hearts();

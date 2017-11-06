@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour {
 	} 
 	public void Enable1Hearts(){
 		m_oneHealth.SetActive(true);
-		m_twoHealth.SetActive(true);
+		m_twoHealth.SetActive(false);
 		m_threeHealth.SetActive(false);
 	} 
 	public void EquipHotDog(){
