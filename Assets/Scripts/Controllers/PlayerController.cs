@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
 		middle = transform.position;
 		transform.parent=m_mainCam.transform;
 		m_currentWeapon=Weapons.HOTDOG;
+		GameManager.Instance.EquipHotDog();
 	}
 	
 	// Update is called once per frame
@@ -62,13 +63,8 @@ public class PlayerController : MonoBehaviour {
 			m_state_mgr.GameOver();
 			
 		}
-		if(m_currentWeapon == Weapons.HOTDOG){
-			
-			GameManager.Instance.EquipHotDog();
-		}
-		else if(m_currentWeapon == Weapons.TOMATO){
-			GameManager.Instance.EquipTomato();
-		}
+	
+		
 	}
 	void OnCollisionEnter(Collision other){
 		if(other.gameObject.tag == "Walls"){
@@ -82,11 +78,29 @@ public class PlayerController : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if(other.gameObject.tag == "TomatoPickup"){
 			m_currentWeapon = Weapons.TOMATO;
+			GameManager.Instance.EquipTomato();
 			Destroy(other.gameObject);
 		}
 			if(other.gameObject.tag == "HotdogPickup"){
 			m_currentWeapon = Weapons.HOTDOG;
+			GameManager.Instance.EquipHotDog();
 			Destroy(other.gameObject);
 		}
+			if(other.gameObject.tag == "CandyPickup"){
+			m_currentWeapon = Weapons.CANDY;
+			GameManager.Instance.EquipCandy();
+			Destroy(other.gameObject);
+		}
+			if(other.gameObject.tag == "RpgPickup"){
+			m_currentWeapon = Weapons.RPG;
+			GameManager.Instance.EquipRpg();
+			Destroy(other.gameObject);
+		}
+			if(other.gameObject.tag == "GunPickup"){
+			m_currentWeapon = Weapons.GUN;
+			GameManager.Instance.EquipGun();
+			Destroy(other.gameObject);
+		}
+			
 	}
 }

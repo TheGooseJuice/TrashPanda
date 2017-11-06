@@ -222,9 +222,9 @@ Transform:
   - {fileID: 1779706377}
   - {fileID: 501625491}
   - {fileID: 1194058376}
-  - {fileID: 370150839}
   - {fileID: 815476399}
   - {fileID: 2072251501}
+  - {fileID: 370150839}
   m_Father: {fileID: 451166535}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -613,6 +613,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 253467756}
+--- !u!1 &270884323 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1420584628422182, guid: be0b09eae5f64514d866bf5c5843dc0d,
+    type: 2}
+  m_PrefabInternal: {fileID: 2072251500}
+--- !u!65 &270884324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270884323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &278461776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,6 +1148,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 370150839}
+  - component: {fileID: 370150840}
   m_Layer: 0
   m_Name: GunPickup
   m_TagString: Untagged
@@ -1144,14 +1162,26 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 370150838}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 89.2, y: 56.11, z: -15.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1294769940}
   m_Father: {fileID: 25067862}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &370150840
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 370150838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0894089, y: 1, z: 0.68175507}
+  m_Center: {x: -0.24022198, y: 0, z: 0.15912247}
 --- !u!1 &413665913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,9 +2220,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 815476399}
+  - component: {fileID: 815476400}
   m_Layer: 0
   m_Name: CandyPickup
-  m_TagString: Untagged
+  m_TagString: CandyPickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2204,13 +2235,25 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 815476398}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 86.03, y: 56.38, z: -22.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1408486586}
   m_Father: {fileID: 25067862}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &815476400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 815476398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &856324080
 GameObject:
   m_ObjectHideFlags: 0
@@ -3375,7 +3418,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4509860981677044, guid: 8f450cb0ac3cd3d49ae45c0147a0b1f1, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -40.482605
+      value: -27.86
       objectReference: {fileID: 0}
     - target: {fileID: 4509860981677044, guid: 8f450cb0ac3cd3d49ae45c0147a0b1f1, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3685,13 +3728,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294769939}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 90.76137, y: 54.375347, z: -40.322605}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.177, y: -0, z: 0.173}
+  m_LocalScale: {x: 0.43231976, y: 0.49138725, z: 1}
   m_Children: []
   m_Father: {fileID: 370150839}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &1294769941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4135,7 +4178,7 @@ GameObject:
   - component: {fileID: 1408486587}
   m_Layer: 0
   m_Name: CandySprite
-  m_TagString: Untagged
+  m_TagString: CandyPickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4146,13 +4189,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1408486585}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 90.76137, y: 54.375347, z: -40.322605}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.71697044, y: 0.72358024, z: 1}
   m_Children: []
   m_Father: {fileID: 815476399}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &1408486587
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5890,6 +5933,10 @@ Prefab:
     - target: {fileID: 4140150552012980, guid: be0b09eae5f64514d866bf5c5843dc0d, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420584628422182, guid: be0b09eae5f64514d866bf5c5843dc0d, type: 2}
+      propertyPath: m_TagString
+      value: RpgPickup
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be0b09eae5f64514d866bf5c5843dc0d, type: 2}
