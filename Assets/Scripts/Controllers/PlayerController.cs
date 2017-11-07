@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Weapons{ HOTDOG,TOMATO, CANDY, BEANS, GUN, RPG};
+public enum Weapons{ HOTDOG,TOMATO, CANDY, GUN, RPG};
 public class PlayerController : MonoBehaviour {
 	private Rigidbody m_rb;
 	public float m_moveSpeed=1.0f;
@@ -31,23 +31,15 @@ public class PlayerController : MonoBehaviour {
 			gameObject.transform.position=pos;
 		}
 		if(Input.GetKeyUp(KeyCode.Space)){
-			if(m_currentWeapon == Weapons.HOTDOG){
-				GameManager.Instance.FireBullet(m_bulletprefabs[0]);
-			}
-			if(m_currentWeapon == Weapons.TOMATO){
-				GameManager.Instance.FireBullet(m_bulletprefabs[1]);
-			}
-			if(m_currentWeapon == Weapons.CANDY){
-				GameManager.Instance.FireBullet(m_bulletprefabs[2]);
-			}
-			if(m_currentWeapon == Weapons.BEANS){
-				GameManager.Instance.FireBullet(m_bulletprefabs[3]);
-			}
-			if(m_currentWeapon == Weapons.GUN){
-				GameManager.Instance.FireBullet(m_bulletprefabs[4]);
-			}
-			if(m_currentWeapon == Weapons.RPG){
-				GameManager.Instance.FireBullet(m_bulletprefabs[5]);
+			GameManager.Instance.FireBullet(m_bulletprefabs[(int)m_currentWeapon]);
+			if(m_currentWeapon==Weapons.CANDY){
+				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isLeft=true;
+				GameManager.Instance.FireBullet(m_bulletprefabs[(int)m_currentWeapon]);
+				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isLeft=false;
+				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isRight=true;
+				GameManager.Instance.FireBullet(m_bulletprefabs[(int)m_currentWeapon]);
+				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isLeft=false;
+				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isRight=false;
 			}
 		}
 		if(m_life == 3){

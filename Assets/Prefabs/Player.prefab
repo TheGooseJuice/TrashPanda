@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 65393620205167978}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &65393620205167978
 BoxCollider:
@@ -132,9 +132,14 @@ MonoBehaviour:
   m_life: 0
   m_mainCam: {fileID: 0}
   m_state_mgr: {fileID: 0}
-  currentWeapon: 0
-  hotdogPrefab: {fileID: 1552349462567774, guid: 79336eaa26feb524abc6106f5bc1fc27,
-    type: 2}
+  m_currentWeapon: 0
+  m_bulletprefabs:
+  - {fileID: 1552349462567774, guid: 79336eaa26feb524abc6106f5bc1fc27, type: 2}
+  - {fileID: 1471133077947780, guid: 294348269d4d00f4d9d7e86727f7d377, type: 2}
+  - {fileID: 0}
+  - {fileID: 1456989185717148, guid: 37ed296ee11bf144aba4274d4ef4f175, type: 2}
+  - {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c, type: 2}
+  - {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c, type: 2}
 --- !u!212 &212729778606781662
 SpriteRenderer:
   m_ObjectHideFlags: 1

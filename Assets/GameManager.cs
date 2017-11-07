@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject m_threeHealth;
 	public GameObject[] m_weaponUI;
 	public GameObject m_player;
-	
+	public GameObject m_bulletContainer;
+	public float m_levelNum;
 
 	// Use this for initialization
 	void Awake(){
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour {
 		for(int i=0;i<m_weaponUI.Length; i++){
 			m_weaponUI[i].SetActive(false);
 		}
+		m_levelNum = 1;
 	}
 	
 	// Update is called once per frame
@@ -32,6 +34,7 @@ public class GameManager : MonoBehaviour {
 	}
 	public void FireBullet(GameObject m_bulletprefab){
 		GameObject newBullet=Instantiate(m_bulletprefab,m_player.transform.position,Quaternion.identity);
+		newBullet.transform.parent=m_bulletContainer.transform;
 		//newBullet.GetComponent.
 	}
 	public void Enable3Hearts(){
