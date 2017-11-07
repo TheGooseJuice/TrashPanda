@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StateManager : MonoBehaviour {
 private GameObject m_activeState;
 public GameObject[] m_gameStates;
+public Text m_leveltransist;
+public Button m_changeLevel;
 public Camera m_mainCam;
+public int m_levelCount;
 	// Use this for initialization
 	void Start () {
 		int numStates = m_gameStates.Length;
@@ -45,7 +49,7 @@ public Camera m_mainCam;
 
 	public void PlayGame(){
 		m_activeState.SetActive(false);
-		
+		m_levelCount=1;
 		m_activeState = m_gameStates[2];
 		m_activeState.SetActive(true);
 		m_mainCam.GetComponent<CameraScroll>().enabled=true;
@@ -56,5 +60,14 @@ public Camera m_mainCam;
 		m_activeState = m_gameStates[3];
 		m_activeState.SetActive(true);
 		
+	}
+	public void FinishLevel(){
+		m_leveltransist.text += m_levelCount;
+		m_activeState.SetActive(false);
+		m_activeState = m_gameStates[5];
+		m_activeState.SetActive(true);
+		// if(currentLevel == 1){
+			
+		// }
 	}
 }

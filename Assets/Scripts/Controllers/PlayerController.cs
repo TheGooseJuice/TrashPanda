@@ -85,6 +85,10 @@ public class PlayerController : MonoBehaviour {
 			GameManager.Instance.EquipGun();
 			Destroy(other.gameObject);
 		}
+		if(other.gameObject.tag == "Spaghetti"){
+			Destroy(gameObject);
+			m_state_mgr.FinishLevel();
+		}
 			
 	}
 }
