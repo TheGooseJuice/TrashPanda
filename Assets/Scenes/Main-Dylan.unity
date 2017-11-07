@@ -5412,7 +5412,7 @@ Prefab:
     - target: {fileID: 114404626948599978, guid: 38adddf07c2effc40818dc004f877f0e,
         type: 2}
       propertyPath: m_bulletprefabs.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4735844167813350, guid: 38adddf07c2effc40818dc004f877f0e, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5456,26 +5456,17 @@ Prefab:
       propertyPath: m_state_mgr
       value: 
       objectReference: {fileID: 451166536}
-    - target: {fileID: 54354620490728564, guid: 38adddf07c2effc40818dc004f877f0e,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 1397835539385222, guid: 38adddf07c2effc40818dc004f877f0e, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 114404626948599978, guid: 38adddf07c2effc40818dc004f877f0e,
         type: 2}
-      propertyPath: m_bulletprefabs.Array.data[0]
+      propertyPath: m_bulletprefabs.Array.data[5]
       value: 
-      objectReference: {fileID: 1552349462567774, guid: 79336eaa26feb524abc6106f5bc1fc27,
+      objectReference: {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c,
         type: 2}
     - target: {fileID: 114404626948599978, guid: 38adddf07c2effc40818dc004f877f0e,
         type: 2}
-      propertyPath: m_bulletprefabs.Array.data[1]
+      propertyPath: m_bulletprefabs.Array.data[2]
       value: 
-      objectReference: {fileID: 1471133077947780, guid: 294348269d4d00f4d9d7e86727f7d377,
+      objectReference: {fileID: 1689636031581940, guid: 5de3e7845ac230f4583b9cf58a97aa43,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 38adddf07c2effc40818dc004f877f0e, type: 2}
