@@ -13,6 +13,7 @@ TagManager:
   - BeansPickup
   - CandyPickup
   - Bounds
+  - Spaghetti
   layers:
   - Default
   - TransparentFX
