@@ -32,15 +32,6 @@ public class PlayerController : MonoBehaviour {
 		}
 		if(Input.GetKeyUp(KeyCode.Space)){
 			GameManager.Instance.FireBullet(m_bulletprefabs[(int)m_currentWeapon]);
-			if(m_currentWeapon==Weapons.CANDY){
-				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isLeft=true;
-				GameManager.Instance.FireBullet(m_bulletprefabs[(int)m_currentWeapon]);
-				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isLeft=false;
-				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isRight=true;
-				GameManager.Instance.FireBullet(m_bulletprefabs[(int)m_currentWeapon]);
-				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isLeft=false;
-				m_bulletprefabs[(int)m_currentWeapon].GetComponent<Bullet>().m_isRight=false;
-			}
 		}
 		if(m_life == 3){
 			GameManager.Instance.Enable3Hearts();
