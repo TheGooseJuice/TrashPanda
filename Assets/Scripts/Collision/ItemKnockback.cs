@@ -5,6 +5,9 @@ using UnityEngine;
 public class ItemKnockback : MonoBehaviour {
      public void OnCollisionEnter(Collision other) {
          // how much the character should be knocked back
+         if(other.gameObject.tag == "Projectile"){
+
+         
          var magnitude = 5000;
          // calculate force vector
          var force = transform.position - other.transform.position;
@@ -12,5 +15,6 @@ public class ItemKnockback : MonoBehaviour {
          force.Normalize();
          gameObject.GetComponent<Rigidbody>().AddForce(force * magnitude);
      }
+    }
 
 }
