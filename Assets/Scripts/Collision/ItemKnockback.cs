@@ -19,16 +19,17 @@ public class ItemKnockback : MonoBehaviour {
         // m_force.Normalize();
          gameObject.GetComponent<Rigidbody>().AddForce(m_force, ForceMode.Impulse);
 
-        transform.Rotate(Time.deltaTime, 100, 0);
+        gameObject.GetComponent<Rigidbody>().AddTorque(transform.right * 100);
         
+        gameObject.GetComponent<BoxCollider>().enabled=false;
          
      }
      }
 
 
-    public void OnCollisionEnter(Collision other){
-         if(other.gameObject.tag =="Walls"){
-             Destroy(gameObject);
-         }
-    }
+  //  public void OnCollisionEnter(Collision other){
+       //  if(other.gameObject.tag =="Walls"){
+//             Destroy(gameObject);
+    //     }
+  //  }
 }
