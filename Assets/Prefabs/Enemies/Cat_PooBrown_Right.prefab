@@ -40,8 +40,8 @@ GameObject:
   - component: {fileID: 54003401686834282}
   - component: {fileID: 65997247820887520}
   m_Layer: 0
-  m_Name: PooBrown_Cat
-  m_TagString: Untagged
+  m_Name: Cat_PooBrown_Right
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d6c8c077917104c9e9d6859c734199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_moveSpeedX: -1
+  m_moveSpeedX: -3
   m_moveSpeedZ: -0
 --- !u!212 &212378867337627154
 SpriteRenderer:
