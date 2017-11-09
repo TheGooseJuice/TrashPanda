@@ -66,8 +66,6 @@ public int m_levelCount;
 		m_activeState.SetActive(false);
 		m_activeState = m_gameStates[5];
 		m_activeState.SetActive(true);
-		// if(currentLevel == 1){
-			
-		// }
+		
 	}
 }

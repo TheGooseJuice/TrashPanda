@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212139146643355538}
   m_Layer: 0
   m_Name: RocketSprite
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114698445340961588}
   m_Layer: 0
   m_Name: RPGRocket
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,6 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bc3b1d567abf1499a96196c2d45634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_speed: 10
+  m_acceleration: 0
+  m_isLeft: 0
+  m_isRight: 0
 --- !u!136 &136926358648555168
 CapsuleCollider:
   m_ObjectHideFlags: 1

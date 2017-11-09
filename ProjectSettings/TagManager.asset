@@ -14,6 +14,7 @@ TagManager:
   - CandyPickup
   - Bounds
   - Spaghetti
+  - Projectile
   layers:
   - Default
   - TransparentFX

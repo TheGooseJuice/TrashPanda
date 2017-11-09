@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114397400039709858}
   m_Layer: 0
   m_Name: HotDog 1
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 10
+  m_acceleration: 0
+  m_isLeft: 0
+  m_isRight: 0
 --- !u!114 &114397400039709858
 MonoBehaviour:
   m_ObjectHideFlags: 1
