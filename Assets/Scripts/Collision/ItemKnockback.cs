@@ -14,6 +14,8 @@ public class ItemKnockback : MonoBehaviour {
          // normalize force vector to get direction only and trim magnitude
          force.Normalize();
          gameObject.GetComponent<Rigidbody>().AddForce(force * magnitude);
+
+         
      }
     }
 
