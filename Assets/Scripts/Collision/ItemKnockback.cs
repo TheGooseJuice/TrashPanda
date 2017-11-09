@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemKnockback : MonoBehaviour {
+
+
      public void OnTriggerEnter(Collider other) {
          
           Debug.Log("SCOKS!");
