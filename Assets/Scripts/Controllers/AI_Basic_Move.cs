@@ -29,5 +29,6 @@ public class AI_Basic_Move : MonoBehaviour {
 			
 			m_moveSpeedX*=-1;
 		}
+		
 	}
 }
