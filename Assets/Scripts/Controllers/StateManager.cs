@@ -8,6 +8,7 @@ private GameObject m_activeState;
 public GameObject[] m_gameStates;
 public Text m_leveltransist;
 public Button m_changeLevel;
+public GameObject m_player;
 public Camera m_mainCam;
 public int m_levelCount;
 	// Use this for initialization
@@ -53,6 +54,7 @@ public int m_levelCount;
 		m_activeState = m_gameStates[2];
 		m_activeState.SetActive(true);
 		m_mainCam.GetComponent<CameraScroll>().enabled=true;
+		m_player.SetActive(true);
 	}
 
 	public void GameOver(){
@@ -65,6 +67,7 @@ public int m_levelCount;
 		m_leveltransist.text += m_levelCount;
 		m_activeState.SetActive(false);
 		m_activeState = m_gameStates[5];
+		m_mainCam.GetComponent<CameraScroll>().enabled=false;
 		m_activeState.SetActive(true);
 		
 	}
