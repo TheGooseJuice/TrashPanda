@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4344685041786478}
   - component: {fileID: 212692777460711676}
   m_Layer: 0
-  m_Name: FireHydrantSprite
+  m_Name: StreetlightSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +49,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1235144585377302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.0900002, y: 1.33, z: -4.986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4344685041786478}
@@ -101,7 +101,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: b1e38fd8332a3a347b5979dc6cfdd7fe, type: 3}
+  m_Sprite: {fileID: 21300024, guid: 0e68847f3021ad645a9738d58a5bc88e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
