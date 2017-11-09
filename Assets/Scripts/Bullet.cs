@@ -28,20 +28,12 @@ public class Bullet : MonoBehaviour {
 		gameObject.transform.position=pos;
 	}
 	void OnTriggerEnter(Collider other){
-		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "Bounds"||other.gameObject.tag == "Can")
+		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "enemy"||other.gameObject.tag == "Can")
 		{
 			Destroy(gameObject);
 		}
-		if(other.gameObject.tag != "Player"){
-			//PoolManager.Instance.PoolObject(gameObject);
-			//Destroy(gameObject);
 		
-			if(other.gameObject.layer == 8){
-				//GameManager.Instance.BulletHit();
-			}
-		}
 	}
-
 
 }
 
