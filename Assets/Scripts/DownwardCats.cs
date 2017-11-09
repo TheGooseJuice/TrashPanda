@@ -16,4 +16,5 @@ public class DownwardCats : MonoBehaviour {
 		pos.z+=m_moveSpeedZ*Time.deltaTime;
 		gameObject.transform.position=pos;
 	}
+	
 }
