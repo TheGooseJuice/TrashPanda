@@ -15,6 +15,7 @@ TagManager:
   - Bounds
   - Spaghetti
   - Projectile
+  - Bullet
   layers:
   - Default
   - TransparentFX
