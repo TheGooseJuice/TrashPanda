@@ -40,14 +40,11 @@ public class PlayerController : MonoBehaviour {
 			if(m_currentWeapon == Weapons.CANDY){
 				GameManager.Instance.FireBullet(m_bulletprefabs[2]);
 			}
-			if(m_currentWeapon == Weapons.BEANS){
+			if(m_currentWeapon == Weapons.GUN){
 				GameManager.Instance.FireBullet(m_bulletprefabs[3]);
 			}
-			if(m_currentWeapon == Weapons.GUN){
-				GameManager.Instance.FireBullet(m_bulletprefabs[4]);
-			}
 			if(m_currentWeapon == Weapons.RPG){
-				GameManager.Instance.FireBullet(m_bulletprefabs[5]);
+				GameManager.Instance.FireBullet(m_bulletprefabs[4]);
 			}
 		}
 		if(m_life == 3){
@@ -76,11 +73,9 @@ public class PlayerController : MonoBehaviour {
 		}
 		if(other.gameObject.tag == "enemy" ||other.gameObject.tag == "Hazard"){
 			m_life-=1;
-			Vector3 pos = transform.position;
-			pos.x=middle.x;
-			gameObject.transform.position=pos;
 			Destroy(other.gameObject);
 		}
+	
 		
 	}
 	void OnTriggerEnter(Collider other){
@@ -108,6 +103,10 @@ public class PlayerController : MonoBehaviour {
 			m_currentWeapon = Weapons.GUN;
 			GameManager.Instance.EquipGun();
 			Destroy(other.gameObject);
+			
+		}
+			if(other.gameObject.tag == "Spaghetti"){
+			m_state_mgr.GetComponent<StateManager>().FinishLevel();
 		}
 			
 	}

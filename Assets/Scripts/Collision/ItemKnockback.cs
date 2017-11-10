@@ -7,34 +7,27 @@ public class ItemKnockback : MonoBehaviour {
 
      public void OnTriggerEnter(Collider other) {
          
-          Debug.Log("SCOKS!");
+          
 
          if(other.gameObject.tag =="Bullet"){
 
           // calculate force vector
-          Vector3 m_force = transform.position - other.transform.position;
-          gameObject.GetComponent<Rigidbody>().AddForce(m_force, ForceMode.Impulse);
-         
-             
-              
-              gameObject.GetComponent<Rigidbody>().AddTorque(transform.up * 100);
-              
-              
-                
-                  gameObject.GetComponent<Rigidbody>().AddTorque(transform.right * 100);
-              
-
-          gameObject.GetComponent<BoxCollider>().enabled=false;
-          
+            Vector3 m_force = transform.position - other.transform.position;
+            gameObject.GetComponent<Rigidbody>().AddForce(m_force, ForceMode.Impulse);
+            gameObject.GetComponent<Rigidbody>().AddTorque(transform.up * 100);    
+            gameObject.GetComponent<Rigidbody>().AddTorque(transform.right * 100);
+            gameObject.GetComponent<BoxCollider>().enabled=false;
+            StartCoroutine(WaitForDestroy());
          }
      
-         
-
-  //  public void OnCollisionEnter(Collision other){
-       //  if(other.gameObject.tag =="Walls"){
-//             Destroy(gameObject);
-    //     }
-  //  }
 }
+ private IEnumerator WaitForDestroy()
+    {
+       
+           yield return new WaitForSeconds(5);
+            Destroy(gameObject);
+           
+        
+    }
 
 }

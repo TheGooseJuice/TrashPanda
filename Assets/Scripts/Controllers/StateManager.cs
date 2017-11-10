@@ -21,9 +21,15 @@ public int m_levelCount;
 		m_mainCam.GetComponent<CameraScroll>().enabled=false;
 		m_activeState=m_gameStates[1];
 		m_activeState.SetActive(true);
-		
+		m_changeLevel.onClick.AddListener(TaskOnClick);
 	}
 	
+	void TaskOnClick(){
+		if(m_levelCount == 1){
+			m_levelCount = 2;
+
+		}
+	}
 	// Update is called once per frame
 	void Update () {
 		// if(m_activeState == m_gameStates[0]){
@@ -68,7 +74,15 @@ public int m_levelCount;
 		m_activeState.SetActive(false);
 		m_activeState = m_gameStates[5];
 		m_mainCam.GetComponent<CameraScroll>().enabled=false;
+		m_mainCam.transform.position = m_mainCam.GetComponent<CameraScroll>().m_camStartPos;
 		m_activeState.SetActive(true);
 		
+	}
+	public void Level2(){
+		m_activeState.SetActive(false);
+		m_activeState = m_gameStates[4];
+		m_activeState.SetActive(true);
+		m_mainCam.GetComponent<CameraScroll>().enabled=true;
+
 	}
 }
