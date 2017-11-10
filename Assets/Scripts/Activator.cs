@@ -6,7 +6,7 @@ public class Activator : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if(other.gameObject.tag == "enemy"){
-			other.gameObject.SetActive(true);
+			other.GetComponent<DownwardCats>().m_catSprite.enabled = true;
 		}
 	}
 }
