@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour {
 			pos.x=middle.x;
 			gameObject.transform.position=pos;
 		}
-		if(other.gameObject.tag == "enemy"){
+		if(other.gameObject.tag == "enemy" ||other.gameObject.tag == "Hazard"){
 			m_life-=1;
 			Vector3 pos = transform.position;
 			pos.x=middle.x;
