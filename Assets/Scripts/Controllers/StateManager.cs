@@ -25,9 +25,12 @@ public int m_levelCount;
 	}
 	
 	void TaskOnClick(){
+		
+		
 		if(m_levelCount == 1){
+			
 			m_levelCount = 2;
-
+			Level2();
 		}
 	}
 	// Update is called once per frame
@@ -70,15 +73,18 @@ public int m_levelCount;
 		
 	}
 	public void FinishLevel(){
-		m_leveltransist.text += m_levelCount;
+		Debug.Log(m_player.GetComponent<PlayerController>().m_startPos);
+		m_leveltransist.text ="Congrats! You Finished Level: "+ m_levelCount + "!";
 		m_activeState.SetActive(false);
 		m_activeState = m_gameStates[5];
 		m_mainCam.GetComponent<CameraScroll>().enabled=false;
 		m_mainCam.transform.position = m_mainCam.GetComponent<CameraScroll>().m_camStartPos;
+		m_player.transform.position = m_player.GetComponent<PlayerController>().m_startPos;
 		m_activeState.SetActive(true);
 		
 	}
 	public void Level2(){
+		
 		m_activeState.SetActive(false);
 		m_activeState = m_gameStates[4];
 		m_activeState.SetActive(true);

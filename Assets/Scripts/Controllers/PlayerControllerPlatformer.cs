@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Weapons{ HOTDOG,TOMATO, CANDY, BEANS, GUN, RPG};
-public class PlayerController : MonoBehaviour {
+
+public class PlayerControllerPlatformer : MonoBehaviour {
 	private Rigidbody m_rb;
 	public float m_moveSpeed=1.0f;
 	public float m_life;
