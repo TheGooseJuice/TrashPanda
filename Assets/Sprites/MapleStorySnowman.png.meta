@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: b7a7cdd5380019f4ebfd86f583ddf678
+timeCreated: 1510363366
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MapleStorySnowman_0
+    21300002: MapleStorySnowman_1
+    21300004: MapleStorySnowman_2
+    21300006: MapleStorySnowman_3
+    21300008: MapleStorySnowman_4
+    21300010: MapleStorySnowman_5
+    21300012: MapleStorySnowman_6
+    21300014: MapleStorySnowman_7
+    21300016: MapleStorySnowman_8
+    21300018: MapleStorySnowman_9
+    21300020: MapleStorySnowman_10
+    21300022: MapleStorySnowman_12
+    21300024: MapleStorySnowman_13
+    21300026: MapleStorySnowman_14
+    21300028: MapleStorySnowman_15
+    21300030: MapleStorySnowman_16
+    21300032: MapleStorySnowman_18
+    21300034: MapleStorySnowman_21
+    21300036: MapleStorySnowman_24
+    21300038: MapleStorySnowman_27
+    21300040: MapleStorySnowman_28
+    21300042: MapleStorySnowman_29
+    21300044: MapleStorySnowman_30
+    21300046: MapleStorySnowman_31
+    21300048: MapleStorySnowman_32
+    21300050: MapleStorySnowman_33
+    21300052: MapleStorySnowman_34
+    21300054: MapleStorySnowman_35
+    21300056: MapleStorySnowman_36
+    21300058: MapleStorySnowman_37
+    21300060: MapleStorySnowman_38
+    21300062: MapleStorySnowman_39
+    21300064: MapleStorySnowman_40
+    21300066: MapleStorySnowman_41
+    21300068: MapleStorySnowman_42
+    21300070: MapleStorySnowman_43
+    21300072: MapleStorySnowman_44
+    21300074: MapleStorySnowman_46
+    21300076: MapleStorySnowman_48
+    21300078: MapleStorySnowman_51
+    21300080: MapleStorySnowman_52
+    21300082: MapleStorySnowman_53
+    21300084: MapleStorySnowman_54
+    21300086: MapleStorySnowman_55
+    21300088: MapleStorySnowman_56
+    21300090: MapleStorySnowman_57
+    21300092: MapleStorySnowman_58
+    21300094: MapleStorySnowman_59
+    21300096: MapleStorySnowman_61
+    21300098: MapleStorySnowman_63
+    21300100: MapleStorySnowman_66
+    21300102: MapleStorySnowman_67
+    21300104: MapleStorySnowman_68
+    21300106: MapleStorySnowman_69
+    21300108: MapleStorySnowman_70
+    21300110: MapleStorySnowman_73
+    21300112: MapleStorySnowman_74
+    21300114: MapleStorySnowman_75
+    21300116: MapleStorySnowman_76
+    21300118: MapleStorySnowman_77
+    21300120: MapleStorySnowman_78
+    21300122: MapleStorySnowman_79
+    21300124: MapleStorySnowman_80
+    21300126: MapleStorySnowman_81
+    21300128: MapleStorySnowman_82
+    21300130: MapleStorySnowman_83
+    21300132: MapleStorySnowman_85
+    21300134: MapleStorySnowman_87
+    21300136: MapleStorySnowman_89
+    21300138: MapleStorySnowman_91
+    21300140: MapleStorySnowman_93
+    21300142: MapleStorySnowman_102
+    21300144: MapleStorySnowman_117
+    21300146: MapleStorySnowman_118
+    21300148: MapleStorySnowman_119
+    21300150: MapleStorySnowman_120
+    21300152: MapleStorySnowman_121
+    21300154: MapleStorySnowman_122
+    21300156: MapleStorySnowman_123
+    21300158: MapleStorySnowman_129
+    21300160: MapleStorySnowman_130
+    21300162: MapleStorySnowman_131
+    21300164: MapleStorySnowman_132
+    21300166: MapleStorySnowman_138
+    21300168: MapleStorySnowman_139
+    21300170: MapleStorySnowman_140
+    21300172: MapleStorySnowman_141
+    21300174: MapleStorySnowman_144
+    21300176: MapleStorySnowman_147
+    21300178: MapleStorySnowman_149
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MapleStorySnowman_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1020
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1020
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1020
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1020
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 967
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 967
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 967
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 967
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 908
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 908
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 908
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_12
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 908
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 908
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 908
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 908
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 860
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 860
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 860
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 862
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 812
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 812
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 754
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_30
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 754
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_36
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_37
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_38
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 704
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_39
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 655
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_40
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 655
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_41
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 655
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 655
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_43
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 601
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 601
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 601
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_48
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 601
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_53
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_54
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_57
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 547
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_59
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 547
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_61
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 493
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 493
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_66
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 440
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_67
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 463
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 440
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_69
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 440
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_70
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 439
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_73
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 386
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_74
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 386
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_75
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 331
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_76
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 331
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_77
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 331
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_78
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 331
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_79
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 279
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_81
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 230
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_82
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 230
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_83
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 230
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 172
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_87
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 120
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_89
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 120
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_91
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 120
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_93
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 120
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_102
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 24
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_117
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 35
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_118
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 37
+        width: 86
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_119
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 37
+        width: 98
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_120
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 37
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_121
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 37
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_122
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 35
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_123
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 9
+        width: 131
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_129
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 51
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_130
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 37
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_131
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 37
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_132
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 37
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_138
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 51
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_139
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 37
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_140
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 37
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_141
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 37
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_144
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1
+        width: 140
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_147
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 37
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapleStorySnowman_149
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 4
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
