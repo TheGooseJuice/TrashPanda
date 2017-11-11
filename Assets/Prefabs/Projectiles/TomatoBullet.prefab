@@ -19,10 +19,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4415577403734258}
-  - component: {fileID: 65622588255121652}
   - component: {fileID: 114346129615118942}
   - component: {fileID: 54543176037376824}
   - component: {fileID: 114664326292846410}
+  - component: {fileID: 136500172594535788}
+  - component: {fileID: 136424848333058604}
+  - component: {fileID: 111913580793691448}
   m_Layer: 0
   m_Name: TomatoBullet
   m_TagString: Bullet
@@ -53,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1471133077947780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.91, y: 1.643, z: 1.98}
+  m_LocalPosition: {x: -2.249147, y: 1.773, z: -1.2139308}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4755272143717248}
@@ -67,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1545456084720130}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.1186, y: -0, z: 0.1102}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 0.28074113, y: 0.2905367, z: 1}
   m_Children: []
   m_Father: {fileID: 4415577403734258}
@@ -88,18 +90,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65622588255121652
-BoxCollider:
+--- !u!111 &111913580793691448
+Animation:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1471133077947780}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e1a86a7516b0e684e98b84ec5108f6be, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e1a86a7516b0e684e98b84ec5108f6be, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &114346129615118942
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -112,9 +117,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 10
+  m_explosionCollider: {fileID: 136424848333058604}
+  m_anim: {fileID: 111913580793691448}
   m_acceleration: 0
-  m_isLeft: 0
-  m_isRight: 0
 --- !u!114 &114664326292846410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,6 +131,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a58a674338298b4082931d0fffacb35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &136424848333058604
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471133077947780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  m_Radius: 1
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136500172594535788
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471133077947780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.43399364
+  m_Height: 0.882177
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212975760873169658
 SpriteRenderer:
   m_ObjectHideFlags: 1

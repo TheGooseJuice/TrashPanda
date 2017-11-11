@@ -16,7 +16,7 @@ public class ItemKnockback : MonoBehaviour {
             gameObject.GetComponent<Rigidbody>().AddForce(m_force, ForceMode.Impulse);
             gameObject.GetComponent<Rigidbody>().AddTorque(transform.up * 100);    
             gameObject.GetComponent<Rigidbody>().AddTorque(transform.right * 100);
-            gameObject.GetComponent<BoxCollider>().enabled=false;
+            gameObject.GetComponent<Collider>().enabled=false;
             StartCoroutine(WaitForDestroy());
          }
      

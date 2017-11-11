@@ -140,6 +140,8 @@ MonoBehaviour:
   - {fileID: 1456989185717148, guid: 37ed296ee11bf144aba4274d4ef4f175, type: 2}
   - {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c, type: 2}
   - {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c, type: 2}
+  m_startPos: {x: 0, y: 0, z: 0}
+  fireRate: 0.016666668
 --- !u!212 &212729778606781662
 SpriteRenderer:
   m_ObjectHideFlags: 1

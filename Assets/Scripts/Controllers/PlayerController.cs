@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour {
 	public Weapons m_currentWeapon;
 	public GameObject[] m_bulletprefabs;
 	public Vector3 m_startPos;
+	private float timer;
+	public float fireRate = 1/14;
+	
 	void Awake () {
 		m_startPos=transform.position;
 		m_rb = gameObject.GetComponent<Rigidbody>();
@@ -25,14 +28,14 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		timer+= Time.deltaTime;
 		
 		if(Input.GetAxis("Horizontal") != 0){
 			Vector3 pos = gameObject.transform.position;
 			pos.x+=Input.GetAxis("Horizontal")*m_moveSpeed*Time.deltaTime;
 			gameObject.transform.position=pos;
 		}
-		if(Input.GetKeyUp(KeyCode.Space)){
+		if(Input.GetKeyUp(KeyCode.Space)&& timer>fireRate){
 			if(m_currentWeapon == Weapons.HOTDOG){
 				GameManager.Instance.FireBullet(m_bulletprefabs[0]);
 			}
@@ -48,6 +51,7 @@ public class PlayerController : MonoBehaviour {
 			if(m_currentWeapon == Weapons.RPG){
 				GameManager.Instance.FireBullet(m_bulletprefabs[4]);
 			}
+			timer = timer - fireRate;
 		}
 		if(m_life == 3){
 			GameManager.Instance.Enable3Hearts();
