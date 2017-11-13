@@ -19,7 +19,7 @@ public int m_levelCount;
 	
 		}
 		m_mainCam.GetComponent<CameraScroll>().enabled=false;
-		m_activeState=m_gameStates[1];
+		m_activeState=m_gameStates[0];
 		m_activeState.SetActive(true);
 		m_changeLevel.onClick.AddListener(TaskOnClick);
 	}
@@ -53,14 +53,14 @@ public int m_levelCount;
 
 	public void Menu(){
 		m_activeState.SetActive(false);
-		m_activeState = m_gameStates[1];
+		m_activeState = m_gameStates[0];
 		m_activeState.SetActive(true);
 	}
 
 	public void PlayGame(){
 		m_activeState.SetActive(false);
 		m_levelCount=1;
-		m_activeState = m_gameStates[2];
+		m_activeState = m_gameStates[1];
 		m_activeState.SetActive(true);
 		m_mainCam.GetComponent<CameraScroll>().enabled=true;
 		m_player.SetActive(true);
@@ -68,7 +68,7 @@ public int m_levelCount;
 
 	public void GameOver(){
 		m_activeState.SetActive(false);
-		m_activeState = m_gameStates[3];
+		m_activeState = m_gameStates[2];
 		m_activeState.SetActive(true);
 		
 	}
@@ -76,7 +76,7 @@ public int m_levelCount;
 		Debug.Log(m_player.GetComponent<PlayerController>().m_startPos);
 		m_leveltransist.text ="Congrats! You Finished Level: "+ m_levelCount + "!";
 		m_activeState.SetActive(false);
-		m_activeState = m_gameStates[5];
+		m_activeState = m_gameStates[4];
 		m_mainCam.GetComponent<CameraScroll>().enabled=false;
 		m_mainCam.transform.position = m_mainCam.GetComponent<CameraScroll>().m_camStartPos;
 		m_player.transform.position = m_player.GetComponent<PlayerController>().m_startPos;
@@ -86,7 +86,7 @@ public int m_levelCount;
 	public void Level2(){
 		
 		m_activeState.SetActive(false);
-		m_activeState = m_gameStates[4];
+		m_activeState = m_gameStates[3];
 		m_activeState.SetActive(true);
 		m_mainCam.GetComponent<CameraScroll>().enabled=true;
 

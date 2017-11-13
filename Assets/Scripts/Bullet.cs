@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour {
 	private Rigidbody m_rb;
 	public float m_speed=10f;
 	public Collider m_explosionCollider;
-	public Animation m_anim;
+	public Animator m_anim;
 	public float m_acceleration;
 	
 	void Awake(){
@@ -43,9 +43,7 @@ public class Bullet : MonoBehaviour {
 	}
 	void OnDestroy(){
 		
-		if(m_anim != null){
-			m_anim.Play();
-		}
+		m_anim.SetBool("Isded",true);
 		
 	}
 

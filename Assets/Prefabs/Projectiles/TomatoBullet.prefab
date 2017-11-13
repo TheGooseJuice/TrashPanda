@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114664326292846410}
   - component: {fileID: 136500172594535788}
   - component: {fileID: 136424848333058604}
-  - component: {fileID: 111913580793691448}
+  - component: {fileID: 95450536474804862}
   m_Layer: 0
   m_Name: TomatoBullet
   m_TagString: Bullet
@@ -90,21 +90,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &111913580793691448
-Animation:
+--- !u!95 &95450536474804862
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1471133077947780}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: e1a86a7516b0e684e98b84ec5108f6be, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: e1a86a7516b0e684e98b84ec5108f6be, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 916c933578ad81f4c82c84511716d31a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114346129615118942
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -118,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_speed: 10
   m_explosionCollider: {fileID: 136424848333058604}
-  m_anim: {fileID: 111913580793691448}
+  m_anim: {fileID: 95450536474804862}
   m_acceleration: 0
 --- !u!114 &114664326292846410
 MonoBehaviour:
