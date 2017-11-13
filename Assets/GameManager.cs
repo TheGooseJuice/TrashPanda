@@ -37,6 +37,17 @@ public class GameManager : MonoBehaviour {
 		newBullet.transform.parent=m_bulletContainer.transform;
 		//newBullet.GetComponent.
 	}
+	public void TripShot(GameObject m_bulletprefab){
+		GameObject newBullet=Instantiate(m_bulletprefab,m_player.transform.position,Quaternion.identity);
+		GameObject leftBullet=Instantiate(m_bulletprefab,m_player.transform.position,Quaternion.Euler(new Vector3(0,0,10)));
+		leftBullet.GetComponent<Bullet>().m_left=true;
+		GameObject RightBullet=Instantiate(m_bulletprefab,m_player.transform.position,Quaternion.Euler(new Vector3(0,0,-10)));
+		RightBullet.GetComponent<Bullet>().m_right=true;
+		newBullet.transform.parent=m_bulletContainer.transform;
+		leftBullet.transform.parent=m_bulletContainer.transform;
+		RightBullet.transform.parent=m_bulletContainer.transform;
+		//newBullet.GetComponent.
+	}
 	public void Enable3Hearts(){
 		m_oneHealth.SetActive(true);
 		m_twoHealth.SetActive(true);

@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
 				GameManager.Instance.FireBullet(m_bulletprefabs[1]);
 			}
 			if(m_currentWeapon == Weapons.CANDY){
-				GameManager.Instance.FireBullet(m_bulletprefabs[2]);
+				GameManager.Instance.TripShot(m_bulletprefabs[2]);
 			}
 			if(m_currentWeapon == Weapons.GUN){
 				GameManager.Instance.FireBullet(m_bulletprefabs[3]);
