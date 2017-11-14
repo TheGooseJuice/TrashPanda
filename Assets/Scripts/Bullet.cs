@@ -44,7 +44,10 @@ public class Bullet : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "enemy"||other.gameObject.tag == "Can")
 		{
-			m_anim.SetBool("Isded",true);
+			if(m_anim = null){
+				m_anim.SetBool("Isded",true);
+			}
+			
 			Destroy(gameObject);
 		}
 		if(other.gameObject.tag == "Bounds"){
