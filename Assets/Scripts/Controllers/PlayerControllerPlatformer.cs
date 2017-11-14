@@ -12,6 +12,7 @@ public class PlayerControllerPlatformer : MonoBehaviour {
 	public StateManager m_state_mgr;
 	public Weapons m_currentWeapon;
 	public GameObject[] m_bulletprefabs;
+	public GameObject m_playerSprite;
 	public Vector3 m_startPos;
 	void Awake () {
 		m_startPos=transform.position;
@@ -20,16 +21,23 @@ public class PlayerControllerPlatformer : MonoBehaviour {
 		middle = transform.position;
 		transform.parent=m_mainCam.transform;
 		m_currentWeapon=Weapons.HOTDOG;
-		GameManager.Instance.EquipHotDog();
+	//	GameManager.Instance.EquipHotDog();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
 		
-		if(Input.GetAxis("Horizontal") != 0){
+		
+		if(Input.GetKeyDown(KeyCode.A)){
 			Vector3 pos = gameObject.transform.position;
 			pos.x+=Input.GetAxis("Horizontal")*m_moveSpeed*Time.deltaTime;
+			m_playerSprite.transform.localScale=new Vector3(-1.4f,6.5f,1);
+			gameObject.transform.position=pos;
+		}
+		if(Input.GetKeyDown(KeyCode.D)){
+			Vector3 pos = gameObject.transform.position;
+			pos.x+=Input.GetAxis("Horizontal")*m_moveSpeed*Time.deltaTime;
+			m_playerSprite.transform.localScale=new Vector3(1.4f,6.5f,1);
 			gameObject.transform.position=pos;
 		}
 		if(Input.GetKeyUp(KeyCode.Space)){
@@ -49,20 +57,25 @@ public class PlayerControllerPlatformer : MonoBehaviour {
 				GameManager.Instance.FireBullet(m_bulletprefabs[4]);
 			}
 		}
-		if(m_life == 3){
-			GameManager.Instance.Enable3Hearts();
+		if(Input.GetKeyUp(KeyCode.UpArrow)){
+			Vector3 pos = gameObject.transform.position;
+			pos.z+=Input.GetAxis("Vertical")*m_moveSpeed*Time.deltaTime;
+			gameObject.transform.position=pos;
+		}
+		// if(m_life == 3){
+		// 	GameManager.Instance.Enable3Hearts();
 			
-		}
-		if(m_life == 2){
-			GameManager.Instance.Enable2Hearts();
-		}
-		if(m_life == 1){
-			GameManager.Instance.Enable1Hearts();
-		}
-		if(m_life == 0){
-			m_state_mgr.GameOver();
+		// }
+		// if(m_life == 2){
+		// 	GameManager.Instance.Enable2Hearts();
+		// }
+		// if(m_life == 1){
+		// 	GameManager.Instance.Enable1Hearts();
+		// }
+		// if(m_life == 0){
+		// 	m_state_mgr.GameOver();
 			
-		}
+		// }
 	
 		
 	}

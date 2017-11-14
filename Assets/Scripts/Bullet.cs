@@ -19,8 +19,7 @@ public class Bullet : MonoBehaviour {
 		m_right=false;
 	}
 	void Update(){
-		Debug.Log(m_left);
-		Debug.Log(m_right);
+	
 		Vector3 pos = gameObject.transform.position;
 		if(m_left){
 			pos.z+=m_speedZ*Time.deltaTime;
