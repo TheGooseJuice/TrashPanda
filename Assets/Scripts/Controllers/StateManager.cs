@@ -19,7 +19,7 @@ public int m_levelCount;
 	
 		}
 		m_mainCam.GetComponent<CameraScroll>().enabled=false;
-		m_activeState=m_gameStates[5];
+		m_activeState=m_gameStates[0];
 		m_activeState.SetActive(true);
 		m_changeLevel.onClick.AddListener(TaskOnClick);
 	}
