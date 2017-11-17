@@ -11,6 +11,8 @@ public Button m_changeLevel;
 public GameObject m_player;
 public Camera m_mainCam;
 public int m_levelCount;
+
+public AudioSource m_sound_mgr;
 	// Use this for initialization
 	void Start () {
 		int numStates = m_gameStates.Length;
@@ -63,6 +65,7 @@ public int m_levelCount;
 		m_levelCount=1;
 		m_activeState = m_gameStates[1];
 		m_activeState.SetActive(true);
+		m_sound_mgr.Play();
 		m_mainCam.GetComponent<CameraScroll>().enabled=true;
 		m_player.SetActive(true);
 	}

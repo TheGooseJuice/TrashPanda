@@ -17,9 +17,14 @@ public class ItemKnockback : MonoBehaviour {
           // calculate force vector
             Vector3 m_force = transform.position - other.transform.position;
             gameObject.GetComponent<Rigidbody>().AddForce(m_force, ForceMode.Impulse);
+
             gameObject.GetComponent<Rigidbody>().AddTorque(transform.up * 100);    
             gameObject.GetComponent<Rigidbody>().AddTorque(transform.right * 100);
-           // gameObject.GetComponent<Collider>().enabled=false;
+            gameObject.GetComponent<Collider>().enabled=false;
+            gameObject.GetComponent<Rigidbody>().AddTorque(transform.up * 100);    
+            gameObject.GetComponent<Rigidbody>().AddTorque(transform.right * 100);
+           gameObject.GetComponent<Collider>().enabled=false;
+
             StartCoroutine(WaitForDestroy());
          }
      

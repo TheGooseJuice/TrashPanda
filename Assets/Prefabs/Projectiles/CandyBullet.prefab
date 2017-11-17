@@ -106,6 +106,10 @@ MonoBehaviour:
   m_acceleration: 0
   m_left: 0
   m_right: 0
+  m_soundmgr: {fileID: 0}
+  m_sfkWallhit: {fileID: 8300000, guid: 40b2341a3cecfb3479042cf4c50c2058, type: 3}
+  m_sfkcathit: {fileID: 8300000, guid: f511db66c96caee4abc1fd95f064fd45, type: 3}
+  m_sfkCatMeow: {fileID: 8300000, guid: e6838de37ce823e41ab9ad06e8a4bcac, type: 3}
 --- !u!114 &114753685447381412
 MonoBehaviour:
   m_ObjectHideFlags: 1
