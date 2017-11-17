@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_moveSpeedX: 0
-  m_moveSpeedZ: -1
+  m_sprite: {fileID: 0}
 --- !u!212 &212430746293282500
 SpriteRenderer:
   m_ObjectHideFlags: 1
