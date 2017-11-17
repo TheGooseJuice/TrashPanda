@@ -15,7 +15,9 @@ public class PlayerController : MonoBehaviour {
 	public Vector3 m_startPos;
 	public float fireRate = 1/14;
 	private float m_nextFire;
+	public AudioSource m_soundmgr;
 	
+	public AudioClip m_sfkDeath;
 	void Awake () {
 		m_startPos=transform.position;
 		m_rb = gameObject.GetComponent<Rigidbody>();

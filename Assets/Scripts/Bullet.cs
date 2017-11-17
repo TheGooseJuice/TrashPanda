@@ -13,6 +13,8 @@ public class Bullet : MonoBehaviour {
 	public float m_acceleration;
 	public bool m_left;
 	public bool m_right;
+	
+public GameObject stuff;
 	void Awake(){
 		m_rb=GetComponent<Rigidbody>();
 		m_left=false;
@@ -42,8 +44,18 @@ public class Bullet : MonoBehaviour {
 		gameObject.transform.position=pos;
 	}
 	void OnTriggerEnter(Collider other){
-		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "enemy"||other.gameObject.tag == "Can")
+		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "Can")
 		{
+			SoundManager.Instance.playwallhit();
+			if(m_anim = null){
+				m_anim.SetBool("Isded",true);
+			}
+			
+			Destroy(gameObject);
+		}
+		else if(other.gameObject.tag == "enemy"){
+			SoundManager.Instance.playcathit();
+			SoundManager.Instance.playCatMeow();
 			if(m_anim = null){
 				m_anim.SetBool("Isded",true);
 			}
