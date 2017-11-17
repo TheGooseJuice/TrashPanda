@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19a515b4cc9f79e4899285a283af1e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsCat: 0
 --- !u!114 &114698445340961588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -110,17 +111,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bc3b1d567abf1499a96196c2d45634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_speedZ: 10
+  m_speedZ: 2
   m_speedX: 2
   m_explosionCollider: {fileID: 0}
   m_anim: {fileID: 0}
   m_acceleration: 1
   m_left: 0
   m_right: 0
-  m_soundmgr: {fileID: 0}
-  m_sfkWallhit: {fileID: 8300000, guid: 40b2341a3cecfb3479042cf4c50c2058, type: 3}
-  m_sfkcathit: {fileID: 8300000, guid: f511db66c96caee4abc1fd95f064fd45, type: 3}
-  m_sfkCatMeow: {fileID: 8300000, guid: e6838de37ce823e41ab9ad06e8a4bcac, type: 3}
+  stuff: {fileID: 0}
 --- !u!136 &136926358648555168
 CapsuleCollider:
   m_ObjectHideFlags: 1
