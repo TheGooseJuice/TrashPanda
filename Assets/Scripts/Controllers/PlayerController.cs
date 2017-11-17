@@ -78,13 +78,21 @@ public class PlayerController : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision other){
 		if(other.gameObject.tag == "Walls"){
+			SoundManager.Instance.playCoonhit();
 			m_life-=1;
 			Vector3 pos = transform.position;
 			pos.x=middle.x;
 			gameObject.transform.position=pos;
 		}
-		if(other.gameObject.tag == "enemy" ||other.gameObject.tag == "Hazard"){
+		if(other.gameObject.tag == "enemy"){
+			SoundManager.Instance.playcathit();
+			SoundManager.Instance.playCatMeow();
 			m_life-=1;
+			Destroy(other.gameObject);
+		}
+		if(other.gameObject.tag == "Hazard" ){
+			SoundManager.Instance.playCoonhit();
+				m_life-=1;
 			Destroy(other.gameObject);
 		}
 	
