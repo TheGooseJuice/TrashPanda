@@ -34,7 +34,7 @@ public AudioSource m_sound_mgr;
 			m_levelCount = 2;
 			Level2();
 		}
-		if(m_levelCount == 2){
+		if(m_levelCount == 3){
 			
 			m_levelCount = 3;
 			Level3();
