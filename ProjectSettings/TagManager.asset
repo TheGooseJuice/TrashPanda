@@ -19,6 +19,7 @@ TagManager:
   - Can
   - Hazard
   - DownWardEnemy
+  - DownWardPenguins
   layers:
   - Default
   - TransparentFX

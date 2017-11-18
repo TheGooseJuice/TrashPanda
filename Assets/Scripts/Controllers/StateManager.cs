@@ -34,6 +34,11 @@ public AudioSource m_sound_mgr;
 			m_levelCount = 2;
 			Level2();
 		}
+		if(m_levelCount == 2){
+			
+			m_levelCount = 3;
+			Level3();
+		}
 	}
 	// Update is called once per frame
 	void Update () {
@@ -91,6 +96,14 @@ public AudioSource m_sound_mgr;
 		
 		m_activeState.SetActive(false);
 		m_activeState = m_gameStates[3];
+		m_activeState.SetActive(true);
+		m_mainCam.GetComponent<CameraScroll>().enabled=true;
+
+	}
+	public void Level3(){
+		
+		m_activeState.SetActive(false);
+		m_activeState = m_gameStates[5];
 		m_activeState.SetActive(true);
 		m_mainCam.GetComponent<CameraScroll>().enabled=true;
 

@@ -95,6 +95,18 @@ public class PlayerController : MonoBehaviour {
 				m_life-=1;
 			Destroy(other.gameObject);
 		}
+		if(other.gameObject.tag == "DownWardEnemy"){
+			SoundManager.Instance.playcathit();
+			SoundManager.Instance.playNoot();
+				m_life-=1;
+			Destroy(other.gameObject);
+		}
+		if(other.gameObject.tag == "DownWardPenguins"){
+			SoundManager.Instance.playcathit();
+			SoundManager.Instance.playNoot();
+				m_life-=1;
+			Destroy(other.gameObject);
+		}
 	
 		
 	}

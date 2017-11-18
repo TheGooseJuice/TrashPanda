@@ -44,7 +44,7 @@ public GameObject stuff;
 		gameObject.transform.position=pos;
 	}
 	void OnTriggerEnter(Collider other){
-		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "Can")
+		if(other.gameObject.tag == "Walls"||other.gameObject.tag == "Can"||other.gameObject.tag == "Hazard")
 		{
 			SoundManager.Instance.playwallhit();
 			if(m_anim = null){
@@ -60,6 +60,16 @@ public GameObject stuff;
 				m_anim.SetBool("Isded",true);
 			}
 			
+			Destroy(gameObject);
+		}
+		else if(other.gameObject.tag == "DownWardEnemy"){
+			SoundManager.Instance.playcathit();
+			SoundManager.Instance.playCatMeow();
+			Destroy(gameObject);
+		}
+		else if(other.gameObject.tag == "DownWardPenguins"){
+			SoundManager.Instance.playcathit();
+			SoundManager.Instance.playNoot();
 			Destroy(gameObject);
 		}
 		if(other.gameObject.tag == "Bounds"){

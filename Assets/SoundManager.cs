@@ -8,10 +8,11 @@ public class SoundManager : MonoBehaviour {
 	public AudioClip m_sfkcathit;
 	public AudioClip m_sfkCatMeow;
 	public AudioClip m_sfkCoonHit;
+	public AudioClip m_sfkNoot;
 	// Use this for initialization
 	private static SoundManager instance=null;
 	public static SoundManager Instance{get{return instance;}}
-	void Awake(){
+	void Awake(){ 
 	if(instance !=null && instance !=this){
 		Destroy(this.gameObject);
 		return;
@@ -33,5 +34,8 @@ public class SoundManager : MonoBehaviour {
 	}
 	public void playwallhit(){
 		m_soundmgr.PlayOneShot(m_sfkWallhit);
+	}
+	public void playNoot(){
+		m_soundmgr.PlayOneShot(m_sfkNoot);
 	}
 }

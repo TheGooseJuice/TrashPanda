@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114127052131193258}
   m_Layer: 0
   m_Name: Pengu
-  m_TagString: DownWardEnemy
+  m_TagString: DownWardPenguins
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

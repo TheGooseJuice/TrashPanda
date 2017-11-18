@@ -25151,6 +25151,7 @@ MonoBehaviour:
   m_sfkcathit: {fileID: 8300000, guid: f511db66c96caee4abc1fd95f064fd45, type: 3}
   m_sfkCatMeow: {fileID: 8300000, guid: e6838de37ce823e41ab9ad06e8a4bcac, type: 3}
   m_sfkCoonHit: {fileID: 8300000, guid: 61435c7f2185bed4b95eede4627a7b61, type: 3}
+  m_sfkNoot: {fileID: 0}
 --- !u!4 &1753882298
 Transform:
   m_ObjectHideFlags: 0

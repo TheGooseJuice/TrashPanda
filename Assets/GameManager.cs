@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour {
 		
 	}
 	public void FireBullet(GameObject m_bulletprefab){
-		Debug.Log("We Get Here");
+		
 		GameObject newBullet=Instantiate(m_bulletprefab,m_player.transform.position,Quaternion.identity);
 		newBullet.transform.parent=m_bulletContainer.transform;
 		//newBullet.GetComponent.
