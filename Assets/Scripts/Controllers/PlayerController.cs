@@ -16,9 +16,14 @@ public class PlayerController : MonoBehaviour {
 	public float fireRate = 1/14;
 	private float m_nextFire;
 	public AudioSource m_soundmgr;
+	public BoxCollider m_hitBox;
+
+	public SpriteRenderer m_sprite;
 	
 	public AudioClip m_sfkDeath;
 	void Awake () {
+		m_sprite = gameObject.GetComponentInChildren<SpriteRenderer>();
+		m_hitBox = gameObject.GetComponent<BoxCollider>();
 		m_startPos=transform.position;
 		m_rb = gameObject.GetComponent<Rigidbody>();
 		m_life=3;
@@ -26,6 +31,37 @@ public class PlayerController : MonoBehaviour {
 		transform.parent=m_mainCam.transform;
 		m_currentWeapon=Weapons.HOTDOG;
 		GameManager.Instance.EquipHotDog();
+	}
+
+
+
+// gotta create a loop to make the sprite flash after being hit
+	void InvFrames () {	
+		m_hitBox.enabled = false;
+		m_sprite.enabled = false;
+		StartCoroutine(EnableBox(1.0f));
+		StartCoroutine(EnableSprite(0.15f));
+		StartCoroutine(DisableSprite(0.3f));
+		StartCoroutine(EnableSprite(0.45f));
+		StartCoroutine(DisableSprite(0.6f));
+		StartCoroutine(EnableSprite(0.75f));
+		StartCoroutine(DisableSprite(0.9f));
+		StartCoroutine(EnableSprite(1.0f));
+		
+	}
+	IEnumerator EnableSprite(float waitTime) {
+		yield return new WaitForSeconds(waitTime);
+		m_sprite.enabled = true;
+
+	}
+	IEnumerator DisableSprite(float waitTime) {
+		yield return new WaitForSeconds(waitTime);
+		m_sprite.enabled = false;
+
+	}
+	IEnumerator EnableBox(float waitTime) {
+		yield return new WaitForSeconds(waitTime);
+		GetComponent<BoxCollider> ().enabled = true;
 	}
 	
 	// Update is called once per frame
@@ -80,33 +116,44 @@ public class PlayerController : MonoBehaviour {
 		if(other.gameObject.tag == "Walls"){
 			SoundManager.Instance.playCoonhit();
 			m_life-=1;
-			Vector3 pos = transform.position;
+		/*	Vector3 pos = transform.position;
 			pos.x=middle.x;
-			gameObject.transform.position=pos;
+			gameObject.transform.position=pos;*/
+			InvFrames();
+			
+			
 		}
 		if(other.gameObject.tag == "enemy"){
 			SoundManager.Instance.playcathit();
 			SoundManager.Instance.playCatMeow();
 			m_life-=1;
 			Destroy(other.gameObject);
+			InvFrames();
+			
 		}
 		if(other.gameObject.tag == "Hazard" ){
 			SoundManager.Instance.playCoonhit();
-				m_life-=1;
+			m_life-=1;
 			Destroy(other.gameObject);
+			InvFrames();
+			
 		}
 		if(other.gameObject.tag == "DownWardEnemy"){
 			SoundManager.Instance.playcathit();
 			SoundManager.Instance.playNoot();
-				m_life-=1;
+			m_life-=1;
 			Destroy(other.gameObject);
+			InvFrames();
+			
 		}
 		if(other.gameObject.tag == "DownWardPenguins"){
 			SoundManager.Instance.playcathit();
 			SoundManager.Instance.playNoot();
-				m_life-=1;
+			m_life-=1;
 			Destroy(other.gameObject);
-		}
+			InvFrames();
+			
+	}
 	
 		
 	}
