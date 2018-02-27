@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour {
 	public SpriteRenderer m_sprite;
 	
 	public AudioClip m_sfkDeath;
+
+
 	void Awake () {
 		m_sprite = gameObject.GetComponentInChildren<SpriteRenderer>();
 		m_hitBox = gameObject.GetComponent<BoxCollider>();

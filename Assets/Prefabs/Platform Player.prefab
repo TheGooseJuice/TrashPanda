@@ -37,8 +37,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4129215240058252}
   - component: {fileID: 114256027610556680}
-  - component: {fileID: 54184955345752292}
-  - component: {fileID: 65849505558924992}
+  - component: {fileID: 54324021130944426}
+  - component: {fileID: 65516197446529278}
   m_Layer: 0
   m_Name: Platform Player
   m_TagString: Player
@@ -73,7 +73,7 @@ Transform:
   m_Father: {fileID: 4129215240058252}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!54 &54184955345752292
+--- !u!54 &54324021130944426
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,9 +86,9 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65849505558924992
+--- !u!65 &65516197446529278
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -98,8 +98,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.25768355, y: 0.4326269, z: 0.8470096}
-  m_Center: {x: 0.061416376, y: 0.13229106, z: 0.6071904}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95755811913350740
 Animator:
   serializedVersion: 3
@@ -141,6 +141,11 @@ MonoBehaviour:
   - {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c, type: 2}
   - {fileID: 1979213706793530, guid: 0dc2d3bce2fee0b4f91273ba3b9cc40c, type: 2}
   m_startPos: {x: 0, y: 0, z: 0}
+  fireRate: 0
+  m_soundmgr: {fileID: 0}
+  m_hitBox: {fileID: 0}
+  m_sprite: {fileID: 0}
+  m_sfkDeath: {fileID: 0}
 --- !u!212 &212793299727857524
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -150,6 +155,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -165,6 +171,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
