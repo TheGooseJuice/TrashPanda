@@ -25,7 +25,7 @@ public class AI_Basic_Move : MonoBehaviour {
 				m_sprite.transform.localScale=new Vector3(1,1,1);
 
 			}
-			else{Debug.Log("hitwall");
+			else{
 				m_sprite.transform.localScale=new Vector3(-1,1,1);
 			}
 			m_moveSpeedX*=-1;

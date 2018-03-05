@@ -73,11 +73,11 @@ public class PlayerController : MonoBehaviour {
 			pos.x+=Input.GetAxis("Horizontal")*m_moveSpeed*Time.deltaTime;
 			gameObject.transform.position=pos;
 		}
-		if(Input.GetKeyUp(KeyCode.Space)&& Time.time>m_nextFire){
-			if(m_currentWeapon == Weapons.HOTDOG){
-				GameManager.Instance.FireBullet(m_bulletprefabs[0]);
-				
-			}
+		if(Input.GetKeyUp(KeyCode.Mouse0)&& Time.time>m_nextFire){
+			GameManager.Instance.FireBullet(m_bulletprefabs[0]);
+		}
+
+		if(Input.GetKeyUp(KeyCode.Mouse1)&& Time.time>m_nextFire){				
 			if(m_currentWeapon == Weapons.TOMATO){
 				GameManager.Instance.FireBullet(m_bulletprefabs[1]);
 			}
